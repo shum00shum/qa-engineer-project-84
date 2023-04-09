@@ -51,6 +51,7 @@
     1. Открываме браузер на мобильном устройстве
     2. Вводим адрес сайта https://hexlet-products-store.vercel.app
   expected-result: |
-    Отображение сайта должно быть адаптивным
+    Отображение сайта должно быть адаптивным на мобильном устройстве
   actual-result: |
-    Прикладываю скриншот https://github.com/shum00shum/qa-engineer-project-84/blob/main/photo_2023-04-07_14-48-50.jpg
+    Прикладываю скриншот как отображается сайт на мобильном устройстве
+    https://github.com/shum00shum/qa-engineer-project-84/blob/main/photo_2023-04-07_14-48-50.jpg
