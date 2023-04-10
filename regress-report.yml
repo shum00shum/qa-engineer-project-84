@@ -1,43 +1,43 @@
 test-cases:
   - summary: |
       Проверка интернет магазина на кросс-браузерность
-    status: pass
+  status: pass
 
   - summary: |
       Проверка работы "Корзины"
-    status: pass
+  status: pass
     
   - summary: |
       Проверка работоспособности сортировки товара по категориям
-    status: pass
+  status: pass
 
   - summary: |
       Проверка поиска товара по названию производителя
-    status: pass
+  status: pass
 
   - summary: |
       Проверка интернет-магазина на мультиязычность
-    status: pass
+  status: pass
 
   - summary: |
       Проверка возможности переключения страниц на следующую и вернуться на предыдущую
-    status: pass
+  status: pass
 
-- summary: |
+  - summary: |
     Проверка интернет магазина на корректную верстку в мобильной версии
   status: pass
   
-- summary: |
+  - summary: |
     Проверка возможности авторизации пользователя
   status: fail
     
-- summary: |
+  - summary: |
       Проверка возможности оформления заказа добавленных в корзину товара
- status: fail
+  status: fail
  
-- summary: |
+  - summary: |
     По умолчанию выставлено неккоректное количество товара и отсутствует возможность редактирования количества при добавлении в корзину
- status: fail
+  status: fail
  
 ---
 
