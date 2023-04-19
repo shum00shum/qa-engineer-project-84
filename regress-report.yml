@@ -55,6 +55,10 @@ test-cases:
   - summary: |
       Проверка перехода из карточки товара по хэштегу в категорю товара
     status: fail
+    
+  - summary: |
+      Проверка возможности очистить содержимое корзины
+    stasus: pass
 
 bugreports:
   - summary: |
