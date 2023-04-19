@@ -58,7 +58,7 @@ test-cases:
     
   - summary: |
       Проверка возможности очистить содержимое корзины
-    stasus: pass
+    status: pass
 
 bugreports:
   - summary: |
