@@ -56,29 +56,29 @@
   status: fail
   
 bugreports:
- - summary: |
+  - summary: |
       Если убрать галочку "В наличии" то, на странице отображаются те же самые товары, ничего не происходит
-   environment: |
+    environment: |
       Microsoft Edge Версия 112.0.1722.34 (Официальная сборка)
       (64-разрядная версия)
       ОС Windows 10 Корпоративная 21H2
-   steps-to-reproduce: |
+    steps-to-reproduce: |
       1. Убираем галочку "В наличии"
-   expected-result: |
+    expected-result: |
       Должны отображаться только те товары, которых нет в наличии
-   actual-result: |
+    actual-result: |
       Отображается все то же самое, что и с галочкой " В наличии", не изменяется список отображаемых товаров 
 
- - summary: |
+  - summary: |
       Наличие кнопки "Log in to comment" для ресурса Vercel.com, ни имеющая никакого отношения к интернет магазину
-   environment: |
+    environment: |
       Microsoft Edge Версия 112.0.1722.34 (Официальная сборка)
       (64-разрядная версия)
       ОС Windows 10 Корпоративная 21H2
-   steps-to-reproduce: |
+    steps-to-reproduce: |
       1. Открываем главную страницу
       2. Нажимаем на кнопку "Log in to comment"
-   expected-result: |
+    expected-result: |
       Открывается окно авторизации на платформе Vercel.com
-   actual-result: |
+    actual-result: |
       Не должно быть на одном сайте кнопка авторизации для другого сайта
